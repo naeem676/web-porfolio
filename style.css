@@ -1,0 +1,19 @@
+
+h1{
+    font-size: 30px;
+}
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.name{
+    color:yellowgreen;
+}
+.helf-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2px;
+}
+.helf-width img{
+    width: 100%;
+}
