@@ -2,9 +2,13 @@
 h1{
     font-size: 30px;
 }
+p{
+    font-size: 100%;
+}
 body{
     font-family: 'Noto Sans KR', sans-serif;
     margin: 0;
+    font-size: 100%;
 }
 .colorchange{
     animation: colorchangenaeem 1s infinite;
@@ -31,6 +35,7 @@ body{
 }
 section{
     height: 500px;
+    width: 100%;
 }
 .link-button{
     background-image: linear-gradient(45deg,lightsalmon, orange);
@@ -40,10 +45,12 @@ section{
     border-radius: 5px;
     color: white;
     font-weight: 700;
+    width:100%;
 }
 h2{
     font-size: 40px;
 }
+
 .dream-area{
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
@@ -75,4 +82,36 @@ h2{
 }
 footer{
     text-align: center;
+}
+@media only screen and (max-width: 375*670px) {
+    body{
+        font-size: 25%;
+    }
+    .helf-width{
+        width: 10%;
+        height: 25px;
+    }
+    .helf-width img{
+        width: 100%;
+    }
+    section{
+        height: 50px;
+        width: 30%;
+    }
+    .link-button{
+        font-weight: 30;
+        width: 25%;
+    }
+   
+    .single-experince{
+        height: 20vh;
+        width: 25%;
+    }
+    
+    footer{
+        width: 5px;
+    }
+    p{
+        font-size: 5%;
+    }
 }
